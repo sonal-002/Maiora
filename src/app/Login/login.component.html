@@ -1,0 +1,20 @@
+<div class="wrapper">
+  <h1>Welcome</h1>
+  <h5>Please login to your account</h5>
+  <div class="username">
+    Username or Email
+    <br />
+    <input [(ngModel)]="userName" type="text" />
+    <hr />
+  </div>
+  <div class="password">
+    Password
+    <br />
+    <input [(ngModel)]="password" type="password" />
+    <hr />
+  </div>
+  <div class="buttons">
+    <span class="forgot-pass"><u>Forgot Password</u></span>
+    <button class="submit" (click)="onSubmit()">OK</button>
+  </div>
+</div>

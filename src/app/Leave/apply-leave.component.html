@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <h1>Add New leave</h1>
+  <span>
+    <mat-form-field>
+      <mat-select [(value)]="class"></mat-select>
+      <mat-option [value]="">Select Class</mat-option>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select [(value)]="section"></mat-select>
+      <mat-option [value]="">Select Section</mat-option>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select [(value)]="student"></mat-select>
+      <mat-option [value]="">Select Student</mat-option>
+    </mat-form-field>
+    Reason
+    <input type="text" [(ngModel)]="reason" />
+  </span>
+  <span></span>
+
+  <button (click)="closeWithData()">Add Leave</button>
+</div>

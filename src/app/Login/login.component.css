@@ -1,0 +1,40 @@
+.wrapper {
+  width: 50%;
+  margin: auto;
+  padding: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+h5 {
+  margin-top: -20px;
+  font-weight: lighter;
+}
+
+.username input,
+.password input {
+  border-color: white;
+  border-radius: 5px;
+  height: 24px;
+  width: 100%;
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.forgot-pass {
+  cursor: pointer;
+}
+
+.submit {
+  margin-left: 40%;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(255, 196, 0);
+  border-radius: 20px;
+}
